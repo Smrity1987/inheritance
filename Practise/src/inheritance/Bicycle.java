@@ -9,6 +9,9 @@ public class Bicycle {
 		this.speed = speed;
 	}
 	
+	public Bicycle() {
+		
+	}
 	public void applyBrake(int decrement) {
 		speed-=decrement;
 	}
@@ -19,6 +22,14 @@ public class Bicycle {
 	@Override
 	public String toString() {
 		return "Bicycle [gear=" + gear + ", speed=" + speed + "]";
+	}
+
+	public void MountainBikeInter() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void parent_class() {
+		System.out.println("parent class");
 	}
 	
 
