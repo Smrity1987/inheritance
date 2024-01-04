@@ -7,7 +7,6 @@ public class MountainBike extends Bicycle {
 public MountainBike() {
 	
 }	
-
 	
 	public MountainBike(int gear,int speed,int startHeight) {
 		super (gear,speed);
